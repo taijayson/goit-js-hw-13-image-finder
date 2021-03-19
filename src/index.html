@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Webpack Starter Kit</title> 
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+
+  <body>
+   <div class="container">
+    <form class="search-form" id="search-form">
+      <input 
+        type="text" 
+        name="query" 
+        autocomplete="off" 
+        placeholder="Search images..." />
+        <button 
+    type="submit" 
+    class="search-btn" 
+    data-action="search" 
+    id="search">
+      Search
+    </button>
+    </form>
+    <ul class="gallery">
+      <!-- Список <li> с карточками изображений -->
+    </ul>
+    <button 
+    type="button" 
+    disabled="true" 
+    class="load-btn hidden" 
+    data-action="Load more" 
+    id="load">
+      Load more
+    </button>
+   </div>
+  </body>
+</html>
